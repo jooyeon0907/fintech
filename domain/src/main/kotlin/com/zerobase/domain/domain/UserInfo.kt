@@ -10,7 +10,7 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "USR_INFO")
-class UserInfo(// 생성자에 필요한 값들 추가
+class  UserInfo(// 생성자에 필요한 값들 추가
     @Column(name = "usr_key")  // 테이블의 칼럼 네임 (DB 에서는 축약된 명칭 사용)
     val userKey: String,
     // build.gradle 에 plugins { kotlin("plugin.jpa") } 설정하여 초기값을 설정하지 않아도 됨
