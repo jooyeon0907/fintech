@@ -22,4 +22,5 @@ class LoanReview( // 심사 관련 테이블
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long? = null
+
 }
