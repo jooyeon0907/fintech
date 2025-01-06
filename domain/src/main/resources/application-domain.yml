@@ -14,3 +14,6 @@ spring:
     username: fintech
     password: fintech
       # 민감한 정보이므로 실제 서비스에서는 바로 노출을 안하고, 특정 서버에서 따로 관리를 하거나 암호화를 하여 넣어둠
+  redis:
+    host: fintech-redis
+    port: 6379
