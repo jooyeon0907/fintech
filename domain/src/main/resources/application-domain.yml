@@ -10,7 +10,7 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver # mysql 드라이버 설정
-    url: jdbc:mysql://localhost:3307/fintech?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://fintech-mysql:3306/fintech?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
     username: fintech
     password: fintech
       # 민감한 정보이므로 실제 서비스에서는 바로 노출을 안하고, 특정 서버에서 따로 관리를 하거나 암호화를 하여 넣어둠

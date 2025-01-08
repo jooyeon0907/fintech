@@ -14,7 +14,7 @@ import org.springframework.kafka.core.*
 @EnableKafka
 class KafkaConfig {
 	companion object {
-		const val bootstrapServer = "localhost:9092"
+		const val bootstrapServer = "kafka:9092"
 	}
 
 	@Bean // producer 관련 config 설정
